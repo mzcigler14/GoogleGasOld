@@ -6,7 +6,7 @@
   "type": "module",
   "main" : "./src/main.tsx",
   "scripts": {
-    "start" : "index.html",
+    "start" : "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
