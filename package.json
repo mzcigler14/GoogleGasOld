@@ -5,7 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start" : "vite",
+    "start" : "npx vite",
+    "predeploy": "npm run build",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
