@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "npx vite",
     "predeploy": "npm run build",
     "build": "vite build",
     "preview": "vite preview",
@@ -32,6 +32,6 @@
     "dotenv": "^16.3.1",
     "gh-pages": "^6.1.1",
     "typescript": "^4.9.3",
-    "vite": "^4.1.0"
+    "vite": "^4.5.1"
   }
 }
