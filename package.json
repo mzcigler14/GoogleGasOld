@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "npx vite",
+    "start": "npm install && npx vite",
     "predeploy": "npm run build",
     "build": "vite build --outDir=build",
     "preview": "vite preview",
